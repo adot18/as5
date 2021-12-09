@@ -767,7 +767,7 @@ Total Number of Instances              200
 Weighted Avg.    0.965    0.035    0.965      0.965    0.965      0.930    0.985     0.982
 
 
-6) Open the word vector file text_example_training.arff (with any editor or pager) and answer: 
+Open the word vector file text_example_training.arff (with any editor or pager) and answer: 
 how do you describe this format? What do the numbers in the .arff file represent?
 
 Attribute-Relation File Format:
@@ -777,10 +777,10 @@ Attribute-Relation File Format:
 
 Bracketed vectors of numbers are counts of word occurences. 
  
-10) Do you see any difference in the training results between using just amazon review_body text, vs. combining the 
+Do you see any difference in the training results between using just amazon review_body text, vs. combining the 
     review_body text with twitter tweets? Which gives better results?
 
-Yes there is a difference. The review body with tweets appended appears to give better results: 
+Review body tweets are better
 
 Without tweets confusion matrix:
 === Confusion Matrix ===
